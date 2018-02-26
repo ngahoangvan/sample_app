@@ -1,7 +1,14 @@
 <% provide :title, t(".home_title") %>
+<div class="center jumbotron">
 <h1><%= t ".title" %></h1>
 <p>
   <%= t ".home_body" %>
   <%= link_to t(".page_title"), t(".url") %>
   <%= t ".name_project" %>
 </p>
+<a href="#" class="btn btn-lg btn-primary"><%= t ".btn_signup" %></a>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+<%= link_to image_tag("kitten.jpg", alt: "Kitten logo"),
+            '#' %>

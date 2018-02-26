@@ -42,6 +42,7 @@ en:
       url: "http://www.railstutorial.org/"
       page_title: "Ruby on Rails Tutorial"
       name_project: "Sample Application"
+      btn_signup: "Sign up now!"
     help:
       title: "Help Page"
       help_title: "Help"
