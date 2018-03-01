@@ -34,6 +34,20 @@ en:
   layouts:
     application:
       apptitle: " | Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      title: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "News"
+      url_1: "http://www.railstutorial.org/"
+      url_2: "http://www.michaelhartl.com/"
+      url_3: "http://news.railstutorial.org/"
   static_pages:
     home:
       title: "Sample App"
@@ -43,6 +57,9 @@ en:
       page_title: "Ruby on Rails Tutorial"
       name_project: "Sample Application"
       btn_signup: "Sign up now!"
+      url_2: "http://rubyonrails.org/"
+      rails_logo: "Rails logo"
+      kitten_logo: "Kitten logo"
     help:
       title: "Help Page"
       help_title: "Help"
@@ -77,3 +94,7 @@ en:
       url: "http://www.railstutorial.org/contact"
       page_title: "Ruby on Rails Tutorial"
       name_project: "Sample Application"
+  users:
+      new:
+        title: "Sign up"
+        new_home: "This will be a signup page for new users."
