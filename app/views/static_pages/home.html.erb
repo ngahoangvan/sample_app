@@ -6,9 +6,8 @@
   <%= link_to t(".page_title"), t(".url") %>
   <%= t ".name_project" %>
 </p>
-<a href="#" class="btn btn-lg btn-primary"><%= t ".btn_signup" %></a>
+<%= link_to t(".btn_signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
-<%= link_to image_tag("kitten.jpg", alt: "Kitten logo"),
-            '#' %>
+<%= link_to image_tag("rails.png", alt: t(".rails_logo")),
+  "http://rubyonrails.org/" %>
+<%= link_to image_tag("kitten.jpg", alt: t(".kitten_logo"), id: "kitten"), "#" %>
